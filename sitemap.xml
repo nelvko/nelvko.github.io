@@ -2,20 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nelvko.github.io/post/centos-memo/</loc>
-    <lastmod>2024-04-04T16:29:43+00:00</lastmod>
-  </url><url>
     <loc>https://nelvko.github.io/</loc>
-    <lastmod>2024-04-04T16:29:43+00:00</lastmod>
+    <lastmod>2024-04-04T18:16:50+00:00</lastmod>
   </url><url>
     <loc>https://nelvko.github.io/post/</loc>
-    <lastmod>2024-04-04T16:29:43+00:00</lastmod>
+    <lastmod>2024-04-04T18:16:50+00:00</lastmod>
   </url><url>
-    <loc>https://nelvko.github.io/readme/</loc>
-    <lastmod>2024-04-04T16:29:43+00:00</lastmod>
+    <loc>https://nelvko.github.io/post/centos-memo/</loc>
+    <lastmod>2024-04-04T18:16:50+00:00</lastmod>
   </url><url>
-    <loc>https://nelvko.github.io/categories/</loc>
+    <loc>https://nelvko.github.io/tags/linux/</loc>
+    <lastmod>2024-04-04T18:16:50+00:00</lastmod>
   </url><url>
     <loc>https://nelvko.github.io/tags/</loc>
+    <lastmod>2024-04-04T18:16:50+00:00</lastmod>
+  </url><url>
+    <loc>https://nelvko.github.io/readme/</loc>
+    <lastmod>2024-04-04T18:16:50+00:00</lastmod>
+  </url><url>
+    <loc>https://nelvko.github.io/categories/</loc>
   </url>
 </urlset>
