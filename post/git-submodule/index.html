@@ -10,7 +10,7 @@
     <link rel="stylesheet" href='https://nelvko.github.io/css/light.css' />
     <link rel="stylesheet" href='https://nelvko.github.io/css/dark.css' />
     <link rel="stylesheet" href='https://nelvko.github.io/css/syntax.css' />
-    <title>CentOS Memo - nelvko&#39;s blog</title>
+    <title>Git 子模块 - nelvko&#39;s blog</title>
     
     <link rel="icon" type="image/x-icon" href='/images/github-mark.png'>
     
@@ -18,17 +18,17 @@
 
     
     <meta name="description"
-  content="centos 系统备忘" />
+  content="git submodule" />
 <meta name="keywords"
   content='blog, google analytics' />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://nelvko.github.io/post/centos-memo/" />
+<link rel="canonical" href="https://nelvko.github.io/post/git-submodule/" />
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="CentOS Memo - nelvko&#39;s blog" />
+<meta name="twitter:title" content="Git 子模块 - nelvko&#39;s blog" />
 <meta name="twitter:description"
-  content="centos 系统备忘" />
+  content="git submodule" />
 <meta name="twitter:site" content="https://nelvko.github.io/" />
 <meta name="twitter:creator" content="" />
 <meta name="twitter:image"
@@ -36,17 +36,17 @@
 
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="CentOS Memo - nelvko&#39;s blog">
+<meta property="og:title" content="Git 子模块 - nelvko&#39;s blog">
 <meta property="og:description"
-  content="centos 系统备忘" />
-<meta property="og:url" content="https://nelvko.github.io/post/centos-memo/" />
-<meta property="og:site_name" content="CentOS Memo" />
+  content="git submodule" />
+<meta property="og:url" content="https://nelvko.github.io/post/git-submodule/" />
+<meta property="og:site_name" content="Git 子模块" />
 <meta property="og:image"
   content="https://nelvko.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 
-<meta property="article:published_time" content="2024-04-04 03:32:20 &#43;0800 &#43;0800" />
+<meta property="article:published_time" content="2024-04-05 01:24:29 &#43;0800 &#43;0800" />
 
 
 
@@ -132,13 +132,13 @@
                   </span>
                   <span class="path-divider">/</span>
                   <strong class="css-truncate css-truncate-target mr-1" style="max-width: 410px">
-                    <a href="https://nelvko.github.io/post/centos-memo/">CentOS Memo</a>
+                    <a href="https://nelvko.github.io/post/git-submodule/">Git 子模块</a>
                   </strong>
                 </h1>
                 <div class="note m-0">
-                  Created <relative-time datetime="Thu, 04 Apr 2024 03:32:20 &#43;0800"
+                  Created <relative-time datetime="Fri, 05 Apr 2024 01:24:29 &#43;0800"
                     class="no-wrap">
-                    Thu, 04 Apr 2024 03:32:20 &#43;0800</relative-time>
+                    Fri, 05 Apr 2024 01:24:29 &#43;0800</relative-time>
 
                   
                   <span class="file-info-divider"></span>
@@ -174,20 +174,20 @@
                         </div>
                       </div>
                     </details-menu>
-                      53 Words
+                      39 Words
                     
 
                   </div>
                   <div class="file-actions flex-order-2 pt-0">
                     
                     
-                    <a class="muted-link mr-3" href="/tags/linux">
+                    <a class="muted-link mr-3" href="/tags/git">
                       <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
                         <path fill-rule="evenodd"
                           d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
                         </path>
                       </svg>
-                      Linux
+                      Git
                     </a>
                     
                     
@@ -197,13 +197,17 @@
 
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
-                <article class="markdown-body entry-content container-lg"><h2 id="更新-git-2x-版本">更新 Git 2.x 版本</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yum -y remove -y git
-</span></span><span class="line"><span class="cl">yum -y remove -y git-*
-</span></span><span class="line"><span class="cl">yum -y install https://packages.endpointdev.com/rhel/7/os/x86_64/endpoint-repo.x86_64.rpm
-</span></span><span class="line"><span class="cl">yum install -y git
-</span></span></code></pre></div><p>Git默认开启了 SSL 证书验证功能，关闭 SSL 证书验证：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global http.sslVerify <span class="nb">false</span>
+                <article class="markdown-body entry-content container-lg"><h1 id="子模块用法">子模块用法</h1>
+<h2 id="添加">添加</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git submodule add &lt;url&gt; <span class="o">[</span>path<span class="o">]</span>
+</span></span></code></pre></div><h2 id="删除">删除</h2>
+<p>亦或切换远程库地址</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rm -rf &lt;path&gt;
+</span></span><span class="line"><span class="cl">vi .gitmodules
+</span></span><span class="line"><span class="cl">vi .git/config
+</span></span><span class="line"><span class="cl">rm .git/modules/*
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git rm --cached &lt;path&gt;
 </span></span></code></pre></div></article>
               </div>
             </div>
