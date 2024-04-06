@@ -142,9 +142,9 @@
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Sat, 06 Apr 2024 15:16:14 &#43;0000"
+                  Modified <relative-time datetime="Sat, 06 Apr 2024 15:22:47 &#43;0000"
                     class="no-wrap">
-                    Sat, 06 Apr 2024 15:16:14 &#43;0000</relative-time>
+                    Sat, 06 Apr 2024 15:22:47 &#43;0000</relative-time>
                   
                 </div>
               </div>
@@ -220,6 +220,24 @@
 <script type="application/javascript" src='https://nelvko.github.io/js/toc.js'></script>
 <link rel="stylesheet" href='https://nelvko.github.io/css/toc.css' />
 
+
+<div id="gitalk-container" class="gitalk-container"></div>
+<link rel="stylesheet" href='https://nelvko.github.io/css/gitalk.css'>
+<script src='https://nelvko.github.io/js/gitalk.min.js'></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: '91ac01586ade483f1bb6',
+    clientSecret: '1bb9b3b015e9b6951f9f8a2ec92cd7b3e98ac127',
+    repo: 'nelvko.github.io',
+    owner: 'nelvko',
+    admin: ['nelvko'],
+    id: eval("location.pathname"), 
+    distractionFreeMode: false 
+  });
+  (function() {
+    gitalk.render('gitalk-container');
+  })();
+</script>
 
 
   <div class="footer container-xl width-full p-responsive">
