@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on nelvko&#39;s blog</title>
-    <link>http://mojospy.love/tags/linux/</link>
+    <link>https://mojospy.love/tags/linux/</link>
     <description>Recent content in Linux on nelvko&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 07 Apr 2024 14:55:17 +0000</lastBuildDate>
-    <atom:link href="http://mojospy.love/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 15:14:26 +0000</lastBuildDate>
+    <atom:link href="https://mojospy.love/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CentOS Memo</title>
-      <link>http://mojospy.love/post/centos-memo/</link>
+      <link>https://mojospy.love/post/centos-memo/</link>
       <pubDate>Thu, 04 Apr 2024 03:32:20 +0800</pubDate>
-      <guid>http://mojospy.love/post/centos-memo/</guid>
+      <guid>https://mojospy.love/post/centos-memo/</guid>
       <description>centos 系统备忘</description>
     </item>
   </channel>
