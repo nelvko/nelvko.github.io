@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on nelvko&#39;s blog</title>
-    <link>https://nelvko.github.io/tags/</link>
+    <link>http://mojospy.love/tags/</link>
     <description>Recent content in Tags on nelvko&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 07 Apr 2024 12:25:05 +0000</lastBuildDate>
-    <atom:link href="https://nelvko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 12:31:42 +0000</lastBuildDate>
+    <atom:link href="http://mojospy.love/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git</title>
-      <link>https://nelvko.github.io/tags/git/</link>
+      <link>http://mojospy.love/tags/git/</link>
       <pubDate>Fri, 05 Apr 2024 01:24:29 +0800</pubDate>
-      <guid>https://nelvko.github.io/tags/git/</guid>
+      <guid>http://mojospy.love/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://nelvko.github.io/tags/linux/</link>
+      <link>http://mojospy.love/tags/linux/</link>
       <pubDate>Thu, 04 Apr 2024 03:32:20 +0800</pubDate>
-      <guid>https://nelvko.github.io/tags/linux/</guid>
+      <guid>http://mojospy.love/tags/linux/</guid>
       <description></description>
     </item>
   </channel>
