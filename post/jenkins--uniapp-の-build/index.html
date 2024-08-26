@@ -10,7 +10,7 @@
     <link rel="stylesheet" href='https://mojospy.love/css/light.css' />
     <link rel="stylesheet" href='https://mojospy.love/css/dark.css' />
     <link rel="stylesheet" href='https://mojospy.love/css/syntax.css' />
-    <title>CentOS Memo - nelvko&#39;s blog</title>
+    <title>uniapp 项目集成 Jenkins 实现自动化部署 - nelvko&#39;s blog</title>
     
     <link rel="icon" type="image/x-icon" href='/images/github-mark.png'>
     
@@ -18,17 +18,17 @@
 
     
     <meta name="description"
-  content="centos 系统备忘" />
+  content="Jenkins &amp; uniapp の build" />
 <meta name="keywords"
   content='blog, google analytics' />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://mojospy.love/post/centos-memo/" />
+<link rel="canonical" href="https://mojospy.love/post/jenkins--uniapp-%E3%81%AE-build/" />
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="CentOS Memo - nelvko&#39;s blog" />
+<meta name="twitter:title" content="uniapp 项目集成 Jenkins 实现自动化部署 - nelvko&#39;s blog" />
 <meta name="twitter:description"
-  content="centos 系统备忘" />
+  content="Jenkins &amp; uniapp の build" />
 <meta name="twitter:site" content="https://mojospy.love/" />
 <meta name="twitter:creator" content="" />
 <meta name="twitter:image"
@@ -36,17 +36,17 @@
 
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="CentOS Memo - nelvko&#39;s blog">
+<meta property="og:title" content="uniapp 项目集成 Jenkins 实现自动化部署 - nelvko&#39;s blog">
 <meta property="og:description"
-  content="centos 系统备忘" />
-<meta property="og:url" content="https://mojospy.love/post/centos-memo/" />
-<meta property="og:site_name" content="CentOS Memo" />
+  content="Jenkins &amp; uniapp の build" />
+<meta property="og:url" content="https://mojospy.love/post/jenkins--uniapp-%E3%81%AE-build/" />
+<meta property="og:site_name" content="uniapp 项目集成 Jenkins 实现自动化部署" />
 <meta property="og:image"
   content="https://mojospy.love/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 
-<meta property="article:published_time" content="2024-04-04 03:32:20 &#43;0800 &#43;0800" />
+<meta property="article:published_time" content="2024-08-26 18:18:00 &#43;0800 &#43;0800" />
 
 
 
@@ -132,13 +132,13 @@
                   </span>
                   <span class="path-divider">/</span>
                   <strong class="css-truncate css-truncate-target mr-1" style="max-width: 410px">
-                    <a href="https://mojospy.love/post/centos-memo/">CentOS Memo</a>
+                    <a href="https://mojospy.love/post/jenkins--uniapp-%E3%81%AE-build/">uniapp 项目集成 Jenkins 实现自动化部署</a>
                   </strong>
                 </h1>
                 <div class="note m-0">
-                  Created <relative-time datetime="Thu, 04 Apr 2024 03:32:20 &#43;0800"
+                  Created <relative-time datetime="Mon, 26 Aug 2024 18:18:00 &#43;0800"
                     class="no-wrap">
-                    Thu, 04 Apr 2024 03:32:20 &#43;0800</relative-time>
+                    Mon, 26 Aug 2024 18:18:00 &#43;0800</relative-time>
 
                   
                   <span class="file-info-divider"></span>
@@ -174,7 +174,7 @@
                         </div>
                       </div>
                     </details-menu>
-                      53 Words
+                      468 Words
                     
 
                   </div>
@@ -190,6 +190,24 @@
                       Linux
                     </a>
                     
+                    <a class="muted-link mr-3" href="/tags/jenkins">
+                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                        <path fill-rule="evenodd"
+                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
+                        </path>
+                      </svg>
+                      Jenkins
+                    </a>
+                    
+                    <a class="muted-link mr-3" href="/tags/uniapp">
+                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                        <path fill-rule="evenodd"
+                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
+                        </path>
+                      </svg>
+                      uniapp
+                    </a>
+                    
                     
                   </div>
                 </div>
@@ -197,13 +215,79 @@
 
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
-                <article class="markdown-body entry-content container-lg"><h2 id="更新-git-2x-版本">更新 Git 2.x 版本</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yum -y remove -y git
-</span></span><span class="line"><span class="cl">yum -y remove -y git-*
-</span></span><span class="line"><span class="cl">yum -y install https://packages.endpointdev.com/rhel/7/os/x86_64/endpoint-repo.x86_64.rpm
-</span></span><span class="line"><span class="cl">yum install -y git
-</span></span></code></pre></div><p>Git默认开启了 SSL 证书验证功能，关闭 SSL 证书验证：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global http.sslVerify <span class="nb">false</span>
+                <article class="markdown-body entry-content container-lg"><h1 id="jenkins--uniapp-の-build">Jenkins &amp; uniapp の build</h1>
+<p>基于 <code>HBuilderX</code> 软件提取的打包命令编写的脚本，稳定、可靠，可用于生产环境。</p>
+<p>网上大部分此类教程是根据<code>uniapp</code>官网提供的[HBuilderX 工程转换为 vue-cli 工程](<a href="https://ask.dcloud.net.cn/article/35750">uni-app HBuilderX 工程与 vue-cli 工程相互转换 - DCloud问答</a>)进行的，据了解其有弊端且我没最终成功过，故出此教程备忘。</p>
+<h2 id="1文件准备">1.文件准备</h2>
+<ol>
+<li>
+<p>HBuilderX安装目录下的plugins目录下的</p>
+<ul>
+<li><code>uniapp-cli</code></li>
+<li><code>compile-node-sass</code></li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/sass/node-sass/releases">https://github.com/sass/node-sass/releases</a></p>
+<p>服务器执行以下命令根据打印的版本号去下载对应的版本</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">node -p process.versions <span class="p">|</span> grep modules
+</span></span></code></pre></div><p>解压后重命名为 <code>binding.node</code>，并移动到指定目录</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 末尾目录名对应版本号，这里以93为例</span>
+</span></span><span class="line"><span class="cl">mkdir -p ./compile-node-sass/node_modules/node-sass-					china/vendor/linux-x64-93
+</span></span><span class="line"><span class="cl">mv ./binding.node  ./compile-node-sass/node_modules/node-sass-			china/vendor/linux-x64-93/
+</span></span></code></pre></div></li>
+<li>
+<p>将以上三个目录上传至<code>/root/uniapp-compile</code></p>
+</li>
+</ol>
+<h2 id="2打包脚本">2.打包脚本</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> uniapp-cli
+</span></span><span class="line"><span class="cl"><span class="nv">PROJECT_PATH</span><span class="o">=</span>xxx
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">UNI_INPUT_DIR</span><span class="o">=</span><span class="nv">$PROJECT_PATH</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">UNI_OUTPUT_DIR</span><span class="o">=</span><span class="nv">$PROJECT_PATH</span>/unpackage/dist/build/h5
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">NODE_ENV</span><span class="o">=</span>production
+</span></span><span class="line"><span class="cl">node --max-old-space-size<span class="o">=</span><span class="m">2048</span> ./bin/uniapp-cli.js
+</span></span></code></pre></div><h2 id="3-jenkins-流水线脚本">3. Jenkins 流水线脚本</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pipeline <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    agent any
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    tools <span class="o">{</span>nodejs <span class="s2">&#34;nodejs&#34;</span><span class="o">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    environment<span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">COMPILE_PATH</span> <span class="o">=</span> <span class="s2">&#34;/root/uniapp-compile&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">WEBSITE_DIR</span> <span class="o">=</span> <span class="s2">&#34;mojospy.love&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">    stages <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        stage<span class="o">(</span><span class="s2">&#34;拉代码&#34;</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            steps<span class="o">{</span>
+</span></span><span class="line"><span class="cl">                sh<span class="s1">&#39;&#39;&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">                rm -rf ./*
+</span></span></span><span class="line"><span class="cl"><span class="s1">                &#39;&#39;&#39;</span>
+</span></span><span class="line"><span class="cl">                checkout scmGit<span class="o">(</span>branches: <span class="o">[[</span>name: <span class="s1">&#39;*/dev&#39;</span><span class="o">]]</span>, extensions: <span class="o">[]</span>, userRemoteConfigs: <span class="o">[[</span>credentialsId: <span class="s1">&#39;placeholder&#39;</span>, url: <span class="s1">&#39;placeholder&#39;</span><span class="o">]])</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        stage<span class="o">(</span><span class="s2">&#34;打包&#34;</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            steps<span class="o">{</span>
+</span></span><span class="line"><span class="cl">                sh<span class="s1">&#39;&#39;&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">                PROJECT_DIR=`pwd`
+</span></span></span><span class="line"><span class="cl"><span class="s1">                cd $COMPILE_PATH/uniapp-cli
+</span></span></span><span class="line"><span class="cl"><span class="s1">                PROJECT_PATH=$PROJECT_DIR
+</span></span></span><span class="line"><span class="cl"><span class="s1">                export UNI_INPUT_DIR=$PROJECT_PATH
+</span></span></span><span class="line"><span class="cl"><span class="s1">                export UNI_OUTPUT_DIR=$PROJECT_PATH/unpackage/dist/build/h5
+</span></span></span><span class="line"><span class="cl"><span class="s1">                export NODE_ENV=production
+</span></span></span><span class="line"><span class="cl"><span class="s1">                node --max-old-space-size=2048 ./bin/uniapp-cli.js
+</span></span></span><span class="line"><span class="cl"><span class="s1">                &#39;&#39;&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        stage<span class="o">(</span><span class="s2">&#34;传输&#34;</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl">            steps <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                sshPublisher<span class="o">(</span>publishers: <span class="o">[</span>sshPublisherDesc<span class="o">(</span>configName: <span class="s1">&#39;placeholder&#39;</span>, transfers: <span class="o">[</span>sshTransfer<span class="o">(</span>cleanRemote: false, excludes: <span class="s1">&#39;&#39;</span>, execCommand: <span class="s1">&#39;&#39;</span>, execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: <span class="s1">&#39;[, ]+&#39;</span>, remoteDirectory: <span class="s2">&#34;</span><span class="nv">$WEBSITE_DIR</span><span class="s2">&#34;</span>, remoteDirectorySDF: false, removePrefix: <span class="s1">&#39;unpackage/dist/build/h5&#39;</span>, sourceFiles: <span class="s1">&#39;unpackage/dist/build/h5/**&#39;</span><span class="o">)]</span>, usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: <span class="nb">false</span><span class="o">)])</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
 </span></span></code></pre></div></article>
               </div>
             </div>

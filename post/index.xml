@@ -4,10 +4,17 @@
     <title>Posts on nelvko&#39;s blog</title>
     <link>https://mojospy.love/post/</link>
     <description>Recent content in Posts on nelvko&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 07 Apr 2024 17:07:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2024 10:18:56 +0000</lastBuildDate>
     <atom:link href="https://mojospy.love/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>uniapp 项目集成 Jenkins 实现自动化部署</title>
+      <link>https://mojospy.love/post/jenkins--uniapp-%E3%81%AE-build/</link>
+      <pubDate>Mon, 26 Aug 2024 18:18:00 +0800</pubDate>
+      <guid>https://mojospy.love/post/jenkins--uniapp-%E3%81%AE-build/</guid>
+      <description>Jenkins &amp;amp; uniapp の build</description>
+    </item>
     <item>
       <title>Git 子模块</title>
       <link>https://mojospy.love/post/git-submodule/</link>
