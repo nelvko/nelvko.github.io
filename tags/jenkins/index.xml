@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jenkins on nelvko&#39;s blog</title>
-    <link>https://mojospy.love/tags/jenkins/</link>
+    <link>https://nelvko.github.io/tags/jenkins/</link>
     <description>Recent content in Jenkins on nelvko&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Sep 2024 14:15:58 +0000</lastBuildDate>
-    <atom:link href="https://mojospy.love/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Sep 2024 14:20:29 +0000</lastBuildDate>
+    <atom:link href="https://nelvko.github.io/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>uniapp 项目集成 Jenkins 实现自动化部署</title>
-      <link>https://mojospy.love/post/jenkins--uniapp-%E3%81%AE-build/</link>
+      <link>https://nelvko.github.io/post/jenkins--uniapp-%E3%81%AE-build/</link>
       <pubDate>Mon, 26 Aug 2024 18:18:00 +0800</pubDate>
-      <guid>https://mojospy.love/post/jenkins--uniapp-%E3%81%AE-build/</guid>
+      <guid>https://nelvko.github.io/post/jenkins--uniapp-%E3%81%AE-build/</guid>
       <description>Jenkins &amp;amp; uniapp の build</description>
     </item>
   </channel>
