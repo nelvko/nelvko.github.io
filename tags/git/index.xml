@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on nelvko&#39;s blog</title>
-    <link>https://nelvko.github.io/tags/git/</link>
+    <link>https://nelvko.cn/tags/git/</link>
     <description>Recent content in Git on nelvko&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Sep 2024 14:20:29 +0000</lastBuildDate>
-    <atom:link href="https://nelvko.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&lt;a href=&#34;https://beian.miit.gov.cn/&#34; target=&#34;_blank&#34;&gt;鲁ICP备2024062222号-3&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 26 Sep 2024 08:07:31 +0000</lastBuildDate>
+    <atom:link href="https://nelvko.cn/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git 子模块</title>
-      <link>https://nelvko.github.io/post/git-submodule/</link>
+      <link>https://nelvko.cn/post/git-submodule/</link>
       <pubDate>Fri, 05 Apr 2024 01:24:29 +0800</pubDate>
-      <guid>https://nelvko.github.io/post/git-submodule/</guid>
+      <guid>https://nelvko.cn/post/git-submodule/</guid>
       <description>git submodule</description>
     </item>
   </channel>

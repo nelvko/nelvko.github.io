@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uniapp on nelvko&#39;s blog</title>
-    <link>https://nelvko.github.io/tags/uniapp/</link>
+    <link>https://nelvko.cn/tags/uniapp/</link>
     <description>Recent content in Uniapp on nelvko&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Sep 2024 14:20:29 +0000</lastBuildDate>
-    <atom:link href="https://nelvko.github.io/tags/uniapp/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&lt;a href=&#34;https://beian.miit.gov.cn/&#34; target=&#34;_blank&#34;&gt;鲁ICP备2024062222号-3&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 26 Sep 2024 08:07:31 +0000</lastBuildDate>
+    <atom:link href="https://nelvko.cn/tags/uniapp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>uniapp 项目集成 Jenkins 实现自动化部署</title>
-      <link>https://nelvko.github.io/post/jenkins--uniapp-%E3%81%AE-build/</link>
+      <link>https://nelvko.cn/post/jenkins--uniapp-%E3%81%AE-build/</link>
       <pubDate>Mon, 26 Aug 2024 18:18:00 +0800</pubDate>
-      <guid>https://nelvko.github.io/post/jenkins--uniapp-%E3%81%AE-build/</guid>
+      <guid>https://nelvko.cn/post/jenkins--uniapp-%E3%81%AE-build/</guid>
       <description>Jenkins &amp;amp; uniapp の build</description>
     </item>
   </channel>

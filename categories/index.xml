@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on nelvko&#39;s blog</title>
-    <link>https://nelvko.github.io/categories/</link>
+    <link>https://nelvko.cn/categories/</link>
     <description>Recent content in Categories on nelvko&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <atom:link href="https://nelvko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&lt;a href=&#34;https://beian.miit.gov.cn/&#34; target=&#34;_blank&#34;&gt;鲁ICP备2024062222号-3&lt;/a&gt;</copyright>
+    <atom:link href="https://nelvko.cn/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

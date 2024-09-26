@@ -2,38 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on nelvko&#39;s blog</title>
-    <link>https://nelvko.github.io/tags/</link>
+    <link>https://nelvko.cn/tags/</link>
     <description>Recent content in Tags on nelvko&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Sep 2024 14:20:29 +0000</lastBuildDate>
-    <atom:link href="https://nelvko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&lt;a href=&#34;https://beian.miit.gov.cn/&#34; target=&#34;_blank&#34;&gt;鲁ICP备2024062222号-3&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 26 Sep 2024 08:07:31 +0000</lastBuildDate>
+    <atom:link href="https://nelvko.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jenkins</title>
-      <link>https://nelvko.github.io/tags/jenkins/</link>
+      <link>https://nelvko.cn/tags/jenkins/</link>
       <pubDate>Mon, 26 Aug 2024 18:18:00 +0800</pubDate>
-      <guid>https://nelvko.github.io/tags/jenkins/</guid>
+      <guid>https://nelvko.cn/tags/jenkins/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://nelvko.github.io/tags/linux/</link>
+      <link>https://nelvko.cn/tags/linux/</link>
       <pubDate>Mon, 26 Aug 2024 18:18:00 +0800</pubDate>
-      <guid>https://nelvko.github.io/tags/linux/</guid>
+      <guid>https://nelvko.cn/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Uniapp</title>
-      <link>https://nelvko.github.io/tags/uniapp/</link>
+      <link>https://nelvko.cn/tags/uniapp/</link>
       <pubDate>Mon, 26 Aug 2024 18:18:00 +0800</pubDate>
-      <guid>https://nelvko.github.io/tags/uniapp/</guid>
+      <guid>https://nelvko.cn/tags/uniapp/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>https://nelvko.github.io/tags/git/</link>
+      <link>https://nelvko.cn/tags/git/</link>
       <pubDate>Fri, 05 Apr 2024 01:24:29 +0800</pubDate>
-      <guid>https://nelvko.github.io/tags/git/</guid>
+      <guid>https://nelvko.cn/tags/git/</guid>
       <description></description>
     </item>
   </channel>
