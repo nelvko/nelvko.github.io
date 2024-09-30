@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <copyright>&lt;a href=&#34;https://beian.miit.gov.cn/&#34; target=&#34;_blank&#34;&gt;鲁ICP备2024062222号-3&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 29 Sep 2024 10:07:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 01:14:28 +0000</lastBuildDate>
     <atom:link href="https://nelvko.cn/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>uniapp 项目集成 Jenkins 实现自动化部署</title>
